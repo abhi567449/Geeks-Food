@@ -12,7 +12,7 @@ function Body() {
           <h1>Let us find your <strong style={{color:"rgb(189, 23, 63)"}}>Forever Food.</strong></h1>
           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt illo tenetur fuga ducimus numquam ea!</p>
           <div className="button-div">
-          <button>Search Now</button>
+          <button style={{backgroundColor:"rgb(189, 23, 63)",color:"white"}}>Search Now</button>
           <button>Know More</button>
           </div>
         </div>
