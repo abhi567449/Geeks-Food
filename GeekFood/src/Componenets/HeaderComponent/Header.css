@@ -1,0 +1,31 @@
+.nav
+{
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+}
+.logo
+{
+    width: 20%;
+}
+.main-nav
+{
+  font-size: 20px; 
+  width: 60%;
+}
+.list
+{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+   
+}
+.button
+{
+    width: 20%;
+}
+.start-button
+{
+background-color: blue;
+color: white;
+}
