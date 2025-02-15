@@ -6,7 +6,7 @@
     height: 50px;
     align-content: center;
     align-items: center;
-    position: sticky;
+    position: static;
     margin-top: 0px;
 }
 .logo-nav
