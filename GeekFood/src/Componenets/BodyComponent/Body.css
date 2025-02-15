@@ -1,4 +1,55 @@
-.image1
+.img1
 {
-    width: 200px;
+    background-color: yellow;
+    width: 100vw;
+    height: 500px;
+}
+
+.detail-div
+{
+    display: flex;
+margin-top: 60px;
+    width: 100vw;
+    height: 500px;
+    background-color: yellow;
+}
+.image2-div
+{
+    position: relative;
+    width: 50%;
+}
+.text-div
+{
+    text-align: justify;
+    font-size: 10px;
+    height: 500px;
+    width: 50%;
+    background-color: rgb(235, 234, 234);
+    
+}
+.text
+{
+
+    margin-left: 120px;
+    margin-top: 140px;
+    width: 70%;
+    height: 50%;
+}
+.touch-button
+{
+    font-size: 12px;
+    color: white;
+    background-color: blue;
+    height: 40px;
+    width: 150px;
+}
+.touch-button:hover{
+    background-color: rgb(177, 177, 248);
+}
+.img2
+{
+    position: absolute;
+    margin-left: 200px;
+    width: 500px;
+    height: 400px;
 }

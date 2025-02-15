@@ -1,14 +1,28 @@
-import React from 'react'
-import './Body.css'
+import React from "react";
+import "./Body.css";
+import img1 from "./img1.avif";
+import img2 from "./img2.avif";
 
 function Body() {
   return (
     <div>
-      <div className='image1'>
-        {/* <img src="https://images.unsplash.com/photo-1604014237800-1c9102c219da?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" alt="" /> */}
+      <div className="image1-div">
+        <img className="img1" src={img1} alt="Image" />
+      </div>
+      <div className="detail-div">
+        <div className="image2-div">
+          <img className="img2" src={img2} alt="Image" />
+        </div>
+        <div className="text-div">
+          <div className="text">
+          <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, debitis.</h1>
+          <p style={{fontSize:"15px"}}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, molestiae! Quidem est esse numquam odio deleniti, beatae, magni dolores provident quaerat totam eos, aperiam architecto eius quis quibusdam fugiat dicta.</p>
+        <button className="touch-button">Get In Touch</button>
+        </div>
+        </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default Body
+export default Body;
