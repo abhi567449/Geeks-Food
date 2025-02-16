@@ -5,7 +5,7 @@ function Header() {
   return (
     <div className='nav'>
       <div className='logo-nav'>
-        <span>GeekFoods</span>
+        <span style={{fontWeight:"bolder",cursor:"pointer"}}>GeekFoods</span>
       </div>
       <div className='main-nav'>
             <ul className='list'>
